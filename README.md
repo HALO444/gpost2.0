@@ -18,8 +18,7 @@
 ## 📂 Project Structure
 
 ```text
-gpost/
-│
+
 ├── main.py           # Entry point
 ├── dir.py            # Directory brute-forcing
 ├── dns.py            # Subdomain brute-forcing
@@ -27,4 +26,38 @@ gpost/
 ├── help.py           # CLI help display
 ├── start_msg.py      # Startup info print
 ├── wordlist.txt      # (Optional) Sample wordlist
+```
+---
+## 📦 Requirements
+
+Before running, make sure you have the following Python packages installed:
+
+```text
+pip install aiohttp tqdm validators
+```
+---
+## 🧑‍💻 Usage
+
+```text
+python main.py [command] [wordlist] [url]
+```
+---
+## 🔍 Commands
+
+```text
+dir – Perform directory brute-force
+dns – Perform subdomain brute-force
+-h, --help – Show help
+```
+--
+## 📌 Examples
+
+```text
+python main.py dir wordlist.txt https://example.com
+python main.py dns wordlist.txt https://example.com
+python main.py --help
+```
+---
+
+
 
