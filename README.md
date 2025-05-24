@@ -1,3 +1,5 @@
+![logo.png](https://raw.githubusercontent.com/HALO444/gpost2.0/refs/heads/main/logo.png)
+
 # gpost v2.0
 
 **gpost** is a lightweight, asynchronous brute-forcing tool for **directories** and **subdomains**, inspired by tools like Gobuster but written in Python for easier modification and learning. It’s designed to be fast, clean, and beginner-friendly, with features like automatic progress tracking, result logging, and clean CLI interaction.
