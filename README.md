@@ -51,7 +51,7 @@ dir – Perform directory brute-force
 dns – Perform subdomain brute-force
 -h, --help – Show help
 ```
---
+---
 ## 📌 Examples
 
 ```text
